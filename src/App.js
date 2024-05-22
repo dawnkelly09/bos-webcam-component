@@ -85,6 +85,9 @@ function App(props) {
           }
           return <Link {...props} />;
         },
+        Camera: (props) => {
+          return <Camera {...props} />;
+        },
       },
       features: {
         enableComponentSrcDataKey: true,
