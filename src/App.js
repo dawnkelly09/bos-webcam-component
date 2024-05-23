@@ -4,7 +4,7 @@ import "bootstrap/dist/js/bootstrap.bundle";
 import { Widget } from "near-social-vm";
 import React, { useEffect, useMemo, useState } from "react";
 import "react-bootstrap-typeahead/css/Typeahead.css";
-
+import Camera from "../src/components/Camera";
 import { sanitizeUrl } from "@braintree/sanitize-url";
 import { useAccount, useInitNear } from "near-social-vm";
 import {
