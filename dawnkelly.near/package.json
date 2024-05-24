@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "bw": "bos-workspace",
-    "dev": "bw dev",
+    "dev": "bw dev -g ../dist",
     "build": "bw build"
   },
   "devDependencies": {
